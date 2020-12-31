@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="walle">
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="381.64" />
+      <inertia ixx="3.0841" ixy="0.0094207" ixz="-0.0089252" iyy="3.6061" iyz="0.14553" izz="3.6742" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="walle.obj" />
+      </geometry>
+      <material name="base">
+        <color rgba="1 0.65 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="walle.obj" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
